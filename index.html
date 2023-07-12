@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
     <title>Bookmark landing page</title>
   </head>
@@ -15,8 +21,8 @@
         <li><a href="#">FEATURES</a></li>
         <li><a href="#">PRICING</a></li>
         <li><a href="#">CONTACT</a></li>
+        <button class="login">LOGIN</button>
       </ul>
-      <button class="login">LOGIN</button>
       <div class="hamburger">
         <img src="images/icon-hamburger.svg" alt="hamburger" />
       </div>
@@ -38,37 +44,53 @@
     </div>
 
     <div class="features">
-      <h2>Features</h2>
-      <p>
-        Our aim is to make it quick and easy for you to access your favourite
-        websites. Your bookmarks sync between your devices so you can access
-        them on the go.
-      </p>
+      <div class="header">
+        <h2>Features</h2>
+        <p>
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <div class="features-btn">
+        <button class="btn active">Simple Bookmarking</button>
+        <button class="btn">Speedy Searching</button>
+        <button class="btn">Easy Sharing</button>
+      </div>
       <div class="features-grid">
         <div class="features-grid-item">
           <img src="images/illustration-features-tab-1.svg" alt="tab" />
-          <h3>Bookmark in one click</h3>
-          <p>
-            Organize your bookmarks however you like. Our simple drag-and-drop
-            interface gives you complete control over how you manage your
-            favourite sites.
-          </p>
+          <div class="bookmark">
+            <h3>Bookmark in one click</h3>
+            <p>
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button>More info</button>
+          </div>
         </div>
-        <div class="features-grid-item">
+        <div class="features-grid-item two">
           <img src="images/illustration-features-tab-2.svg" alt="tab" />
-          <h3>Intelligent search</h3>
-          <p>
-            Our powerful search feature will help you find saved sites in no
-            time at all. No need to trawl through all of your bookmarks.
-          </p>
+          <div class="bookmark">
+            <h3>Intelligent search</h3>
+            <p>
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button>More info</button>
+          </div>
         </div>
-        <div class="features-grid-item">
+        <div class="features-grid-item three">
           <img src="images/illustration-features-tab-3.svg" alt="tab" />
-          <h3>Share your bookmarks</h3>
-          <p>
-            Easily share your bookmarks and collections with others. Create a
-            shareable link that you can send at the click of a button.
-          </p>
+          <div class="bookmark">
+            <h3>Share your bookmarks</h3>
+            <p>
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send at the click of a button.
+            </p>
+            <button>More info</button>
+          </div>
         </div>
       </div>
     </div>
